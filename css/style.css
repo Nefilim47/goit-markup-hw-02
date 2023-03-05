@@ -4,7 +4,7 @@
   --button-main-color: #4d5ae5;
   --button-hover-color: #404bbf;
   --text-paragraph-color: #434455;
-  --background-color-section-four: #f4f4fd;
+  --background-color-section-team: #f4f4fd;
   --footer-color-paragraph: #e7e9fc;
 }
 body {
@@ -56,11 +56,10 @@ a {
 
 /* Main */
 /* Section one */
-.section-one {
+.section-hero {
   background-color: var(--text-head-line-color);
 }
-.main-head-line {
-  font-weight: 700;
+.hero-tittle {
   font-size: 56px;
   line-height: 1.07;
   color: var(--white-color);
@@ -89,37 +88,36 @@ a {
   margin: -1px;
   width: 1px;
 }
-.third-head-line {
+.section-subtittle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  color: var(--text-head-line-color);
 }
-.paragrph-planing {
+.section-text {
   color: var(--text-paragraph-color);
 }
 
 /* Section three */
-.secondary-head-line {
-  font-weight: 700;
+.section-tittle {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
   text-align: center;
 }
 /* Section four */
-.section-four {
-  background-color: var(--background-color-section-four);
+.section-team {
+  background-color: var(--background-color-section-team);
 }
 .our-team-card .card-team {
   background-color: var(--white-color);
 }
 
-.our-team-card .third-head-line {
+.our-team-card .section-subtittle {
   text-align: center;
 }
 .our-team-card p {
   text-align: center;
-  color: var(--text-paragraph-color);
 }
 /* Footer */
 
@@ -128,7 +126,7 @@ a {
 }
 
 .footer-logo-second-part {
-  color: var(--background-color-section-four);
+  color: var(--background-color-section-team);
 }
 .footer-our p {
   color: var(--footer-color-paragraph);
@@ -136,25 +134,19 @@ a {
 /* PORTFOLIO */
 
 .filter-button {
-  background-color: var(--background-color-section-four);
+  background-color: var(--background-color-section-team);
   color: var(--button-main-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
-  width: 101px;
-  height: 48px;
 }
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--button-hover-color);
   color: var(--white-color);
 }
-.posts h3 {
+/* .posts h2 {
   color: var(--text-head-line-color);
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-}
-.posts p {
-  color: var(--text-paragraph-color);
-}
+} */
